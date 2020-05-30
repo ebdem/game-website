@@ -486,26 +486,26 @@
 							<form class="ui form">
 								<div class="field">
 									<div class="ui left icon input">
-										<input type="text" name="" placeholder="Name">
+										<input id="nameInput" type="text" name="" placeholder="Name">
 										<i class="user icon"></i>
 									</div>
 								</div>
 								<div class="field">
 									<div class="ui left icon input">
-										<input type="text" name="" placeholder="Surname">
+										<input id="surnameInput" type="text" name="" placeholder="Surname">
 										<i class="user icon"></i>
 									</div>
 								</div>
 								<div class="field">
 									<div class="ui left icon input">
-										<input type="email" name="" placeholder="Email">
+										<input id="emailInput" type="email" name="" placeholder="Email">
 										<i class="envelope icon"></i>
 									</div>
 								</div>
 								<div class="field">
-									<textarea rows="5" placeholder="Message"></textarea>
+									<textarea id="messageInput" rows="5" placeholder="Message"></textarea>
 								</div>
-								<div class="ui primary button sc-button ">SEND</div>
+								<div id="sendButton" class="ui primary button sc-button ">SEND</div>
 								<div class="ui hidden divider"></div>
 								<div class="ui hidden divider"></div>
 
@@ -630,5 +630,6 @@
 
 
 		<script type="text/javascript" src="js/script.js"></script> 
-	</body>
+		<script src="js/sendEmail.js"></script>
+</body>
 	</html>
