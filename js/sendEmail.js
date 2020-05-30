@@ -21,7 +21,7 @@ document.getElementById('sendButton').addEventListener('click', function() {
         // post credentials to send_email endpoint
     
         $.ajax({
-            url: 'http://localhost:3000/send_email',
+            url: 'http://51.15.245.21:3000/send_email',
             method: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(postData),
