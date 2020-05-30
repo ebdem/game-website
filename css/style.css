@@ -1,0 +1,185 @@
+
+
+.h1, .h2, .h3, .title, .header , .yazi {
+	font-family: 'Chelsea Market', cursive !important;
+}
+h2,h3{
+	color: 	#FA8072 !important;
+	font-family: 'Piedra', cursive !important;
+}
+.sc-section{
+	padding-top: 200px !important;
+	padding-bottom: 100px !important;
+}
+.sc-renk{
+	color: black;
+}
+
+
+.sc-logo{
+	display: block;
+	width: 70px;
+	height: 70px;
+	color: #fff;
+	font-size: 26px;
+	line-height: 70px !important;
+	text-align: center;
+	border: 1px solid #fff;
+	border-radius: 100%;
+
+}
+
+
+
+
+
+.sc-main{
+	background: linear-gradient(rgb(0,0,0, 0.7),rgb(0,0,0, 0.7)),
+	url(../img/resss.jpg) no-repeat 50% 50% !important;
+	background-size: cover !important;
+	position: relative;
+}
+.sc-main.segment{
+	min-height: 100vh;
+
+}
+.sc-header-content{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	max-width: 80%;
+
+}
+
+.fixed{
+	background-color: rgba(0,0,0,1) !important;
+	padding-right: 8% !important;
+	padding-left: 8% !important;
+}
+
+.toc.item{
+	display: none !important;
+}
+h1.ui.header{
+	font-size: 5em;
+	font-weight: 200;
+	letter-spacing: 5px;
+	color:#FAFAD2 !important;
+
+}
+
+h1.ui.header::first-letter{
+	color: #E9967A !important;
+}
+.primary{
+	background-color: #e74c3c !important;
+
+}
+.primary:hover{
+	background-color: 	#FA8072 !important;
+}
+.sc-button{
+	font-weight: 300 !important;
+	margin-top:  25px !important;
+}
+.stil{
+	font-family: 'DM Mono', monospace;
+
+}
+h2.sc-h2{
+	font-size: 2.2em !important;
+
+}
+#portfolio{
+	background-color: #f5f5f5;
+}
+#about{
+	position: relative;
+}
+.sc-vertical:after{
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 275px;
+	bottom: 200px;
+	left: 49%;
+	border-left: 2px solid 	#FF8C00;
+	transform: translate(-50%);
+}
+.kisa{
+	color: 	#D2691E !important;
+	font-family: 'Piedra', cursive !important;
+	font-size:100px;
+	background-color: 	#00CED1;
+
+}
+#team{
+	background-color: 	#DEB887;
+}
+
+#contact{
+	background: linear-gradient(rgb(0,0,0, 0.7),rgb(0,0,0, 0.7)),
+	url(../img/man.png) no-repeat 50% 50% !important;
+	background-size: cover !important;
+	
+}
+#contact p,
+#contact .description
+{
+	color:	#008080;
+}
+#contact i.icon{
+	color: #fff;
+}
+
+
+@media only screen and (max-width: 767px){
+
+	.sc-logo{
+		width: 50px;
+		height: 50px;
+		font-size: 18px;
+		line-height: 50px !important;
+	}
+
+	.secondary.pointing.menu .item,
+	.secondary.pointing.menu .menu {
+		display: none !important;
+	}
+	.secondary.pointing.menu .toc.item{
+		display: block !important;
+	}
+
+	.sc-main.segment{
+		max-height: 350px;
+
+	}
+	.sc-main h1.ui.header{
+		font-size: 3em;
+		margin-top: 1.5em;
+	}
+	sc-main h2{
+		margin-top: 0.5em;
+		font-size: 1.5em;
+	}
+	.ui.stackable.grid > .row > .column{
+		width: 75% !important;
+	}
+
+footer{
+	background-color: #000 !important;
+	padding: 20px 0 10px;
+	font-size: 20px;
+
+}
+
+footer p{
+	margin: 0;
+	color: #e74c3c !important;
+}
+
+
+
+
+
